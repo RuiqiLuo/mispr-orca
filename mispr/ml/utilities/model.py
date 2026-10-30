@@ -3,12 +3,6 @@
 import json
 import importlib
 
-__author__ = "Ruiqi Luo"
-__status__ = "Development"
-__date__ = "2026_10_29"
-__version__ = "0.0.5"
-
-
 def validate_model_spec(spec):
     """Check that ``spec`` is a well-formed, JSON-serializable model specification, without importing anything.
 

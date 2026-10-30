@@ -32,11 +32,6 @@ from mispr.gaussian.utilities.metadata import get_chem_schema
 from mispr.gaussian.utilities.db_utilities import get_db
 from mispr.gaussian.firetasks.parse_outputs import FARAD, HARTREE_TO_EV, HARTREE_TO_KJ
 
-__author__ = "Ruiqi Luo"
-__status__ = "Development"
-__date__ = "2026_10_29"
-__version__ = "0.0.5"
-
 logger = logging.getLogger(__name__)
 
 # same indices as the DFT *toDB firetasks

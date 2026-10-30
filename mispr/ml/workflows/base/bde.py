@@ -14,11 +14,6 @@ from mispr.ml.firetasks.predict import PredictBDE
 from mispr.ml.utilities.context import to_pymatgen, build_mol_context
 from mispr.gaussian.utilities.metadata import get_mol_formula
 
-__author__ = "Ruiqi Luo"
-__status__ = "Development"
-__date__ = "2026_10_29"
-__version__ = "0.0.5"
-
 WORKFLOW_KWARGS = Workflow.__init__.__code__.co_varnames
 
 

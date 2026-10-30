@@ -29,11 +29,6 @@ from pymatgen.analysis.local_env import OpenBabelNN
 from mispr.gaussian.utilities.mol import process_mol, link_molecules
 from mispr.gaussian.firetasks.geo_transformation import BreakMolecule
 
-__author__ = "Ruiqi Luo"
-__status__ = "Development"
-__date__ = "2026_10_29"
-__version__ = "0.0.5"
-
 logger = logging.getLogger(__name__)
 
 
